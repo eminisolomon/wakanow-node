@@ -21,11 +21,11 @@ This SDK can be installed with npm or yarn or pnpm.
 
 ```sh
 # using npm
-npm install @wakanow-node
+npm install wakanow-node
 # using yarn
-yarn install @wakanow-node
+yarn install wakanow-node
 # using pnpm
-pnpm add @wakanow-node
+pnpm add wakanow-node
 ```
 
 ## Usage

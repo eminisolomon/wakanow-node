@@ -1,0 +1,46 @@
+{
+  "name": "wakanow-node",
+  "version": "1.0.0",
+  "description": "A node library to consume wakanow api",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "example": "ts-node examples/Authentication.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "fix": "tslint --fix -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkterungwa16/wakanow-node.git"
+  },
+  "keywords": [
+    "wakanow",
+    "flights",
+    "travel",
+    "api"
+  ],
+  "author": "Richard Terungwa Kombol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkterungwa16/wakanow-node/issues"
+  },
+  "homepage": "https://github.com/rkterungwa16/wakanow-node#readme",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^11.13.9",
+    "@types/request": "^2.48.1",
+    "jest": "^24.7.1",
+    "nodemon": "^1.19.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "request": "^2.88.0"
+  }
+}

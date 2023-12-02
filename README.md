@@ -30,11 +30,13 @@ pnpm add wakanow-node
 
 ## Usage
 
+Check out the examples in the [examples](examples) to see how to use `wakanow-node` in your projects.
+
 - TODO
 
 ## Contributing
 
-Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+Interested in contributing? Check out the [contributing guidelines](CONTRIBUTING.md). Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
 ## License
 

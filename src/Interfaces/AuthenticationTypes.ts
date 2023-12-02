@@ -1,6 +1,6 @@
 import {
   ResponseHeaders,
-} from "../";
+} from "..";
 export interface AuthenticationRequestBody {
   grant_type: string;
   username: string;

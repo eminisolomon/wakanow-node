@@ -6,7 +6,7 @@ import {
   AuthenticationSuccessResponseBody,
   environment,
   ErrorResponse,
-} from "../Types";
+} from "../Interfaces";
 
 export class Authentication {
   private environment: environment;

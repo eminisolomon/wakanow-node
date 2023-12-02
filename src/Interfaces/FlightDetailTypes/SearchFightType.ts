@@ -4,7 +4,7 @@ import {
 
 import {
   ResponseHeaders,
-} from "../";
+} from "..";
 
 interface Itineraries {
   [key: string]: string;

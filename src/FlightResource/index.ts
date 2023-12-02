@@ -14,7 +14,7 @@ import {
   FlightTicketResponseBody,
   environment,
   ErrorResponse,
-} from "../Types";
+} from "../Interfaces";
 
 /**
  *  Manage Passenger flight

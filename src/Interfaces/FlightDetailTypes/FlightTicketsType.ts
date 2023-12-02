@@ -4,7 +4,7 @@ import {
 
 import {
   ResponseHeaders,
-} from "../";
+} from "..";
 
 export interface FlightTicketRequestBody {
   BookingId: string;

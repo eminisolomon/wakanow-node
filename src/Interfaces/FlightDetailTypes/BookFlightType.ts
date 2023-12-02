@@ -3,7 +3,7 @@ import {
   FlightSummaryModel,
 } from "./FlightDetailTypes";
 
-import { ResponseHeaders } from "../";
+import { ResponseHeaders } from "..";
 
 export interface BookingItemModel {
   ProductType: string;

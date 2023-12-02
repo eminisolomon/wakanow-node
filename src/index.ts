@@ -8,9 +8,9 @@ import {
 
 import {
   environment,
-} from "./Types";
+} from "./Interfaces";
 
-export * from "./Types";
+export * from "./Interfaces";
 /**
  * Wakanow
  */

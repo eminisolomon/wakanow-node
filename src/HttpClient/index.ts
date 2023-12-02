@@ -3,7 +3,7 @@ import request from "request";
 import {
   HttpClientConfig,
   ResponseHeaders,
-} from "../Types";
+} from "../Interfaces";
 
 export class HttpClient {
   apiToken: string;

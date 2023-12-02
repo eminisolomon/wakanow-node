@@ -1,6 +1,6 @@
 import {
   FlightBookingSummaryModel,
-} from "./BookFlightType";
+} from "./BookFlight";
 
 import {
   ResponseHeaders,

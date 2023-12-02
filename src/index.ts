@@ -1,10 +1,10 @@
 import {
   FlightResource,
-} from "./FlightResource";
+} from "./Resources";
 
 import {
   Authentication,
-} from "./Authentication/";
+} from "./Auth";
 
 import {
   environment,

@@ -1,7 +1,7 @@
 
 import {
   HttpClient,
-} from "../HttpClient";
+} from "../Core";
 
 import {
   FlightSearchRequestBody,

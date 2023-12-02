@@ -1,6 +1,6 @@
 import {
   FlightSummaryModel,
-} from "./FlightDetailTypes";
+} from "./FlightDetail";
 
 import {
   ResponseHeaders,

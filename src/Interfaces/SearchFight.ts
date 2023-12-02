@@ -1,6 +1,6 @@
 import {
   FlightCombination,
-} from "./FlightDetailTypes";
+} from "./FlightDetail";
 
 import {
   ResponseHeaders,

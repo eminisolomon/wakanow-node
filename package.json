@@ -1,6 +1,6 @@
 {
   "name": "wakanow-node",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A node library to consume wakanow api",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rkterungwa16/wakanow-node.git"
+    "url": "git+https://github.com/eminisolomon/wakanow-node.git"
   },
   "keywords": [
     "wakanow",
@@ -21,12 +21,12 @@
     "travel",
     "api"
   ],
-  "author": "Richard Terungwa Kombol",
+  "author": "Solomon Olatunji",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rkterungwa16/wakanow-node/issues"
+    "url": "https://github.com/eminisolomon/wakanow-node/issues"
   },
-  "homepage": "https://github.com/rkterungwa16/wakanow-node#readme",
+  "homepage": "https://github.com/eminisolomon/wakanow-node#readme",
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/node": "^11.13.9",
@@ -42,5 +42,9 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "request": "^2.88.0"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }

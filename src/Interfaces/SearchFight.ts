@@ -1,10 +1,10 @@
 import {
   FlightCombination,
-} from "./FlightDetailTypes";
+} from "./FlightDetail";
 
 import {
   ResponseHeaders,
-} from "../";
+} from ".";
 
 interface Itineraries {
   [key: string]: string;

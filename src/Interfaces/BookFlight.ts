@@ -1,11 +1,9 @@
 import {
   PassengerDetail,
   FlightSummaryModel,
-} from "./FlightDetailTypes";
+} from "./FlightDetail";
 
-import {
-  ResponseHeaders,
-} from "../";
+import { ResponseHeaders } from ".";
 
 export interface BookingItemModel {
   ProductType: string;
@@ -18,29 +16,6 @@ export interface BookFlightRequestBody {
   PassengerDetails: PassengerDetail[];
   BookingItemModels: BookingItemModel[];
 }
-
-// interface TravellerDetail {
-//   PassengerType: string;
-//   FirstName: string;
-//   MiddleName: string;
-//   LastName: string;
-//   DateOfBirth: string;
-//   Age: null;
-//   PhoneNumber: string;
-//   PassportNumber: string;
-//   ExpiryDate: null;
-//   PassportIssuingAuthority: string;
-//   Gender: string;
-//   Title: string;
-//   Email: string;
-//   Address: string;
-//   Country: string;
-//   CountryCode: string;
-//   City: string;
-//   PostalCode: string;
-//   TicketNumber: null;
-//   RoomNumber: null;
-// }
 
 export interface FlightBookingSummaryModel {
   PnrReferenceNumber: string;

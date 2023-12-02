@@ -1,10 +1,10 @@
 import {
   FlightBookingSummaryModel,
-} from "./BookFlightType";
+} from "./BookFlight";
 
 import {
   ResponseHeaders,
-} from "../";
+} from ".";
 
 export interface FlightTicketRequestBody {
   BookingId: string;

@@ -1,16 +1,16 @@
 import {
   FlightResource,
-} from "./FlightResource";
+} from "./Resources";
 
 import {
   Authentication,
-} from "./Authentication/";
+} from "./Auth";
 
 import {
   environment,
-} from "./Types";
+} from "./Interfaces";
 
-export * from "./Types";
+export * from "./Interfaces";
 /**
  * Wakanow
  */

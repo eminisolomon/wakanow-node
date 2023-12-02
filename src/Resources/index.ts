@@ -1,7 +1,7 @@
 
 import {
   HttpClient,
-} from "../HttpClient";
+} from "../Core";
 
 import {
   FlightSearchRequestBody,
@@ -14,7 +14,7 @@ import {
   FlightTicketResponseBody,
   environment,
   ErrorResponse,
-} from "../Types";
+} from "../Interfaces";
 
 /**
  *  Manage Passenger flight

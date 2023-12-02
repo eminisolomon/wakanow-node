@@ -1,10 +1,10 @@
 import {
   FlightSummaryModel,
-} from "./FlightDetailTypes";
+} from "./FlightDetail";
 
 import {
   ResponseHeaders,
-} from "../";
+} from ".";
 export interface SelectFlightRequestBody {
   TargetCurrency: string;
   SelectData: string;

@@ -4,7 +4,7 @@ import {
 
 import {
   ResponseHeaders,
-} from "..";
+} from ".";
 export interface SelectFlightRequestBody {
   TargetCurrency: string;
   SelectData: string;
